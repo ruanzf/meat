@@ -5,7 +5,7 @@
   bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic test
   //副本要在另一个broker
 
-  bin/kafka-list-topic.sh --zookeeper localhost:2181 --list
+  bin/kafka-topics.sh --zookeeper localhost:2181 --list
 
   bin/kafka-topics.sh --describe --zookeeper localhost:2181 --topic test
 
